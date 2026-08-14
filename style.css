@@ -21,7 +21,7 @@ body{
 a{color:inherit;text-decoration:none;}
 img{max-width:100%;display:block;}
 .brand img{
-  width:160px;
+  width:120px;
   height:auto;
 }
 .site-header{
