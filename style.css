@@ -208,3 +208,14 @@ main{max-width:var(--max);margin:0 auto;}
   object-position: center;
   display: block;
 }
+@media (max-width: 820px) {
+  .hero-image {
+    height: auto;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
