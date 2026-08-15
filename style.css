@@ -231,16 +231,10 @@ main{max-width:var(--max);margin:0 auto;}
     margin-top: 16px;
     padding-top: 12px;
   }
+.hero-copy p {
+  font-size: 12px;
+  letter-spacing: .04em;
+  color: #6b6b66;
+  line-height: 1.5;
 }
-}
-.hero-copy p{
-  .hero-copy p{
-  font-size:10px;
-  letter-spacing:.05em;
-  color:#777;
-  line-height:1.5;
-}
-  font-size:12px;
-  letter-spacing:.04em;
-  color:#6b6b66;
 }
