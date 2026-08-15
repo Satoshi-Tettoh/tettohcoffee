@@ -233,3 +233,8 @@ main{max-width:var(--max);margin:0 auto;}
   }
 }
 }
+.hero-copy p{
+  font-size:12px;
+  letter-spacing:.04em;
+  color:#6b6b66;
+}
