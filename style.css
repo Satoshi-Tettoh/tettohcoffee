@@ -250,3 +250,8 @@ main{max-width:var(--max);margin:0 auto;}
   object-fit: cover;
   display: block;
 }
+@media (min-width: 821px) {
+  .work.reverse {
+    grid-template-columns:minmax(260px,.8fr) minmax(0,1.6fr);
+  }
+}
