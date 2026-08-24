@@ -389,9 +389,6 @@ main{
   border-top:1px solid var(--line);
 }
 
-
-/* Short About statement */
-
 .utility-intro{
   max-width:760px;
   margin-bottom:56px;
@@ -493,14 +490,16 @@ main{
 
   .site-header{
     grid-template-columns:1fr auto auto;
-    gap:1.25rem;
+    gap:1.5rem;
 
-    padding:16px 18px;
+    padding:16px 22px;
   }
 
+  /* スマホは当初のロゴサイズを維持 */
+
   .brand img{
-    width:auto;
-    height:27px;
+    width:140px;
+    height:auto;
   }
 
   .nav{
@@ -509,18 +508,18 @@ main{
 
   .shop-link-mobile{
     display:block;
-    font-size:.69rem;
+    font-size:.75rem;
   }
 
   .lang-toggle{
-    font-size:.69rem;
+    font-size:.75rem;
   }
 
 
   /* Hero */
 
   .hero{
-    padding:18px 18px 38px;
+    padding:22px 22px 38px;
   }
 
   .hero-image{
@@ -533,8 +532,8 @@ main{
   }
 
   .hero-copy{
-    margin-top:16px;
-    padding-top:12px;
+    margin-top:20px;
+    padding-top:14px;
   }
 
   .hero-copy p{
@@ -546,7 +545,7 @@ main{
   /* Main sections */
 
   .section{
-    padding:68px 18px 88px;
+    padding:68px 22px 88px;
   }
 
   .section-head{
@@ -640,7 +639,7 @@ main{
   /* Utility */
 
   .utility-section{
-    padding:56px 18px 64px;
+    padding:56px 22px 64px;
   }
 
   .utility-intro{
@@ -672,7 +671,7 @@ main{
   /* Footer */
 
   .footer{
-    padding:22px 18px 42px;
+    padding:22px 22px 42px;
 
     flex-direction:column;
   }
